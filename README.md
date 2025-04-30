@@ -17,20 +17,20 @@ A PDF file with summarized and organized content is added to the working directo
    git clone https://github.com/MustafaAhmadzai/NoteScanner.git
    cd NoteScanner
 
-2. Set up a virtual environment:
+3. Set up a virtual environment:
    python -m venv venv
    venv\Scripts\activate  # Windows
    #or
    source venv/bin/activate  # macOS/Linux
 
-3. Install dependencies:
+4. Install dependencies:
    pip install -r requirements.txt
 
-4. Set environment variables:
+5. Set environment variables:
    - OPENAI_API_KEY — your OpenAI API key
    - GOOGLE_APPLICATION_CREDENTIALS — absolute path to your client_creds.json file
 
-5. Run the program:
+6. Run the program:
    python scanner_version2.py
 
 
