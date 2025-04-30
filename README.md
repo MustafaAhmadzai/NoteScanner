@@ -1,19 +1,18 @@
 This is a Python tool that extracts handwritten text from an image, summarizes it using GPT-4o and generations a PDF.
 
-##Features
+**Features**
 - OCR text extraction using Google Vision API
 - GPT-4o summarization and formatting
 - Clean, structured PDF output
 - Font support for special characters
 
-##Input
+**Input**
 An image path shall be inserted containing handwritten or printed notes.
 
-##Output
+**Output**
 A PDF file with summarized and organized content is added to the working directory.
 
-##How to run
-
+**How to run**
 1. Clone this repo:
    git clone https://github.com/MustafaAhmadzai/NoteScanner.git
    cd NoteScanner
