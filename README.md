@@ -7,10 +7,10 @@ This is a Python tool that extracts handwritten text from an image, summarizes i
 - Font support for special characters
 
 **Input**
-An image path shall be inserted containing handwritten or printed notes.
+- An image path shall be inserted containing handwritten or printed notes.
 
 **Output**
-A PDF file with summarized and organized content is added to the working directory.
+- A PDF file with summarized and organized content is added to the working directory.
 
 **How to run**
 1. Clone this repository:
