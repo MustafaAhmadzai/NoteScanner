@@ -14,23 +14,23 @@ A PDF file with summarized and organized content is added to the working directo
 
 **How to run**
 1. Clone this repository:
-   git clone https://github.com/MustafaAhmadzai/NoteScanner.git
-   cd NoteScanner
+   - git clone https://github.com/MustafaAhmadzai/NoteScanner.git
+   - cd NoteScanner
 
 3. Set up a virtual environment:
-   python -m venv venv
-   venv\Scripts\activate  # Windows
-   #or
-   source venv/bin/activate  # macOS/Linux
+   - python -m venv venv
+   - venv\Scripts\activate  # Windows
+     #or
+   - source venv/bin/activate  # macOS/Linux
 
 4. Install dependencies:
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 5. Set environment variables:
    - OPENAI_API_KEY — your OpenAI API key
    - GOOGLE_APPLICATION_CREDENTIALS — absolute path to your client_creds.json file
 
 6. Run the program:
-   python scanner_version2.py
+   - python scanner_version2.py
 
 
