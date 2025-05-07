@@ -1,5 +1,5 @@
 # Note Scanner
-This is a Python tool that extracts handwritten text from an image, summarizes it using GPT-4o and generations a PDF.
+This is a Python tool that extracts handwritten text from an image, summarizes it using GPT-4o and generates a PDF.
 
 ## Features
 - OCR text extraction using Google Vision API
