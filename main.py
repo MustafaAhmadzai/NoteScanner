@@ -3,6 +3,7 @@ from fastapi.responses import FileResponse
 import shutil
 import os
 import uuid
+import traceback
 
 from scanner_version2 import extract_text_from_image_google_vision, post_API, create_pdf  # Adjust as needed
 
@@ -29,6 +30,7 @@ async def process_image(file: UploadFile = File(...)):
         return {"summary": summarized_text, "pdf_file": pdf_file_name}
 
     except Exception as e:
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 
