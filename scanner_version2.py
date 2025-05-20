@@ -114,6 +114,7 @@ def create_pdf(note_text, output_file='output.pdf'):
 
     output_file = title_text + ".pdf"
     pdf.output(output_file)
+    return output_file
 
 if __name__ == '__main__':
     image_path = input("Please input the file image path: ")
