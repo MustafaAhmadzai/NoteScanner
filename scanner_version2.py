@@ -5,7 +5,8 @@ import io
 from fpdf import FPDF
 
 OPENAI_API = os.getenv("OPENAI_API_KEY")
-GOOGLE_CREDS_PATH = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+#GOOGLE_CREDS_PATH = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+GOOGLE_CREDS_PATH = "google_creds.json"
 client = OpenAI(api_key=OPENAI_API)
 
 
